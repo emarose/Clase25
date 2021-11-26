@@ -1,0 +1,44 @@
+.bg{
+  display: grid;
+  place-items: center;
+}
+
+#mono{max-width: 200px;}
+.span2{
+  grid-column: span 2;
+}
+.grid-container{
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.item1{
+  background: lightblue;
+}
+.item2{  
+  background: lightblue;
+}
+.item3{  
+  background: lightblue;
+}
+.item4{  
+  background: lightblue;
+}
+.item5{  
+  background: lightblue;
+}
+.item6{  
+  background: lightblue;
+}
+.item7{  
+  background: lightblue;
+}
+.item8{
+  background: lightblue;
+}
+.item9{  background: lightblue;
+}
